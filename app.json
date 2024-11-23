@@ -3,6 +3,7 @@
     "name": "cotacao_aula",
     "slug": "cotacao_aula",
     "version": "1.0.0",
+    "scheme": "cotacao_aula",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -22,6 +23,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
